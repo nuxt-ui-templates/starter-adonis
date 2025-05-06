@@ -1,0 +1,21 @@
+@import "tailwindcss" source('../..');
+@import "@nuxt/ui-pro";
+
+@theme static {
+  --font-sans: 'Instrument Sans', sans-serif;
+
+  --color-violet-50: #f0f6ff;
+  --color-violet-100: #e6e6ff;
+  --color-violet-200: #d2d2ff;
+  --color-violet-300: #b2b2ff;
+  --color-violet-400: #a09dff;
+  --color-violet-500: #5a45ff;
+  --color-violet-600: #4a38cc;
+  --color-violet-700: #3a2b99;
+  --color-violet-800: #2a1e66;
+  --color-violet-900: #1a1133;
+}
+
+.dark {
+  --ui-primary: var(--ui-color-primary-500);
+}
