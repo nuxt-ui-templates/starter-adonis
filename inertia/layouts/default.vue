@@ -22,7 +22,7 @@ import { Link } from '@inertiajs/vue3'
       <slot />
     </UMain>
 
-    <USeparator icon="simple-icons:vuedotjs" />
+    <USeparator icon="simple-icons:adonisjs" />
 
     <UFooter>
       <template #left>
