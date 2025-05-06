@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{ error: any }>();
+defineProps<{ error: any }>()
 </script>
 
 <template>
