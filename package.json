@@ -11,7 +11,7 @@
     "test": "node ace test",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit && cd inertia && vue-tsc --noEmit"
   },
   "imports": {
     "#controllers/*": "./app/controllers/*.js",
