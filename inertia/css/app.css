@@ -15,7 +15,3 @@
   --color-violet-800: #2a1e66;
   --color-violet-900: #1a1133;
 }
-
-.dark {
-  --ui-primary: var(--ui-color-primary-500);
-}
