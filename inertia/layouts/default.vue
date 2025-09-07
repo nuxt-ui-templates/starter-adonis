@@ -7,14 +7,14 @@ import { Link } from '@inertiajs/vue3'
     <UHeader>
       <template #left>
         <Link href="/">
-          <LogoPro class="w-auto h-6 shrink-0" />
+          <AppLogo class="w-auto h-6 shrink-0" />
         </Link>
       </template>
 
       <template #right>
         <UColorModeButton />
 
-        <UButton to="https://github.com/nuxt-ui-pro/starter-adonis" target="_blank" icon="simple-icons:github" aria-label="GitHub" color="neutral" variant="ghost" />
+        <UButton to="https://github.com/nuxt-ui-templates/starter-adonis" target="_blank" icon="simple-icons:github" aria-label="GitHub" color="neutral" variant="ghost" />
       </template>
     </UHeader>
 
@@ -27,12 +27,12 @@ import { Link } from '@inertiajs/vue3'
     <UFooter>
       <template #left>
         <p class="text-sm text-muted">
-          Copyright © {{ new Date().getFullYear() }}
+          Built with Nuxt UI • © {{ new Date().getFullYear() }}
         </p>
       </template>
 
       <template #right>
-        <UButton to="https://github.com/nuxt-ui-pro/starter-adonis" target="_blank" icon="simple-icons:github" aria-label="GitHub" color="neutral" variant="ghost" />
+        <UButton to="https://github.com/nuxt-ui-templates/starter-adonis" target="_blank" icon="simple-icons:github" aria-label="GitHub" color="neutral" variant="ghost" />
       </template>
     </UFooter>
   </UApp>

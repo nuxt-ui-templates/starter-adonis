@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ui-pro-starter-adonis",
+  "name": "nuxt-ui-template-starter-adonis",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -63,7 +63,7 @@
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^4.0.0",
     "@inertiajs/vue3": "^2.0.8",
-    "@nuxt/ui-pro": "^3.1.1",
+    "@nuxt/ui": "^4.0.0-alpha.1",
     "@vinejs/vine": "^3.0.1",
     "better-sqlite3": "^11.9.1",
     "edge.js": "^6.2.1",

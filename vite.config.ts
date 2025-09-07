@@ -3,13 +3,13 @@ import { getDirname } from '@adonisjs/core/helpers'
 import inertia from '@adonisjs/inertia/client'
 import vue from '@vitejs/plugin-vue'
 import adonisjs from '@adonisjs/vite/client'
-import uiPro from '@nuxt/ui-pro/vite'
+import ui from '@nuxt/ui/vite'
 
 export default defineConfig({
   plugins: [
     inertia({ ssr: { enabled: false } }),
     vue(),
-    uiPro({
+    ui({
       inertia: true,
       components: {
         dirs: ['inertia/components'],
