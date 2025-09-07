@@ -70,7 +70,7 @@ defineOptions({ layout: Layout })
           color: 'neutral'
         }, {
           label: 'View on GitHub',
-          to: 'https://github.com/nuxt-ui-templates/starter-vue',
+          to: 'https://github.com/nuxt-ui-templates/starter-adonis',
           target: '_blank',
           icon: 'simple-icons:github',
           color: 'neutral',
