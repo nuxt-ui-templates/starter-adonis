@@ -4,7 +4,7 @@
 
 This AdonisJS starter has been made using `pnpm create adonisjs@latest` and demonstrate how to use [Nuxt UI](https://ui.nuxt.com) in an [AdonisJS](https://adonisjs.com/) application using [Inertia.js](https://inertiajs.com/).
 
-- [Documentation](https://ui4.nuxt.com/docs/getting-started/installation/nuxt)
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
 
 ## Setup
 
