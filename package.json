@@ -50,7 +50,7 @@
     "ts-node-maintained": "^10.9.6",
     "typescript": "^5.9.2",
     "vite": "^7.1.7",
-    "vue-tsc": "^3.0.8"
+    "vue-tsc": "^3.1.0"
   },
   "dependencies": {
     "@adonisjs/auth": "^9.5.0",
@@ -62,14 +62,14 @@
     "@adonisjs/shield": "^8.2.0",
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^4.0.0",
-    "@inertiajs/vue3": "^2.1.10",
+    "@inertiajs/vue3": "^2.2.2",
     "@nuxt/ui": "^4.0.0",
     "@vinejs/vine": "^3.0.1",
     "better-sqlite3": "^12.4.1",
     "edge.js": "^6.3.0",
     "luxon": "^3.7.2",
     "reflect-metadata": "^0.2.2",
-    "vue": "^3.5.21"
+    "vue": "^3.5.22"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
