@@ -64,7 +64,7 @@
     "@adonisjs/vite": "^4.0.0",
     "@inertiajs/vue3": "^2.2.11",
     "@nuxt/ui": "^4.1.0",
-    "@vinejs/vine": "^3.0.1",
+    "@vinejs/vine": "^4.1.0",
     "better-sqlite3": "^12.4.1",
     "edge.js": "^6.3.0",
     "luxon": "^3.7.2",
