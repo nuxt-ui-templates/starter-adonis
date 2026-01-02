@@ -39,7 +39,7 @@
     "@japa/assert": "^4.2.0",
     "@japa/plugin-adonisjs": "^4.0.0",
     "@japa/runner": "^4.4.0",
-    "@swc/core": "1.15.7",
+    "@swc/core": "1.15.8",
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.4",
     "@vitejs/plugin-vue": "^6.0.3",
@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@adonisjs/auth": "^9.5.1",
-    "@adonisjs/core": "^6.19.1",
+    "@adonisjs/core": "^6.19.2",
     "@adonisjs/cors": "^2.2.1",
     "@adonisjs/inertia": "^3.1.1",
     "@adonisjs/lucid": "^21.8.1",
@@ -62,7 +62,7 @@
     "@adonisjs/shield": "^8.2.0",
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^4.0.0",
-    "@inertiajs/vue3": "^2.3.4",
+    "@inertiajs/vue3": "^2.3.6",
     "@nuxt/ui": "^4.3.0",
     "@vinejs/vine": "^3.0.1",
     "better-sqlite3": "^12.5.0",
@@ -78,7 +78,7 @@
       "vue-demi"
     ]
   },
-  "packageManager": "pnpm@10.26.1",
+  "packageManager": "pnpm@10.27.0",
   "hotHook": {
     "boundaries": [
       "./app/controllers/**/*.ts",
