@@ -9,38 +9,38 @@ importers:
   .:
     dependencies:
       '@adonisjs/auth':
-        specifier: ^9.5.1
-        version: 9.5.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0))
+        specifier: ^9.6.0
+        version: 9.6.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0))
       '@adonisjs/core':
-        specifier: ^6.19.3
-        version: 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+        specifier: ^6.20.0
+        version: 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@adonisjs/cors':
         specifier: ^2.2.1
-        version: 2.2.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
+        version: 2.2.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
       '@adonisjs/inertia':
         specifier: ^3.1.1
-        version: 3.1.1(43a45a4cb4585c39ada816fd57faf77b)
+        version: 3.1.1(555332b3642d515ca5b2a32786feb8ba)
       '@adonisjs/lucid':
-        specifier: ^21.8.1
-        version: 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
+        specifier: ^21.8.2
+        version: 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
       '@adonisjs/session':
         specifier: ^7.7.1
-        version: 7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
+        version: 7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
       '@adonisjs/shield':
         specifier: ^8.2.0
-        version: 8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)
+        version: 8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)
       '@adonisjs/static':
         specifier: ^1.1.1
-        version: 1.1.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
+        version: 1.1.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
       '@adonisjs/vite':
         specifier: ^4.0.0
-        version: 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+        version: 4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       '@inertiajs/vue3':
-        specifier: ^2.3.11
-        version: 2.3.11(vue@3.5.27(typescript@5.9.3))
+        specifier: ^2.3.13
+        version: 2.3.13(vue@3.5.27(typescript@5.9.3))
       '@nuxt/ui':
         specifier: ^4.4.0
-        version: 4.4.0(@inertiajs/vue3@2.3.11(vue@3.5.27(typescript@5.9.3)))(@tiptap/extensions@3.16.0(@tiptap/core@3.16.0(@tiptap/pm@3.16.0))(@tiptap/pm@3.16.0))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(axios@1.13.2)(change-case@5.4.4)(embla-carousel@8.6.0)(tailwindcss@4.1.18)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))(yjs@13.6.28)(zod@4.1.12)
+        version: 4.4.0(@inertiajs/vue3@2.3.13(vue@3.5.27(typescript@5.9.3)))(@tiptap/extensions@3.16.0(@tiptap/core@3.16.0(@tiptap/pm@3.16.0))(@tiptap/pm@3.16.0))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(axios@1.13.2)(change-case@5.4.4)(embla-carousel@8.6.0)(tailwindcss@4.1.18)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))(yjs@13.6.28)(zod@4.1.12)
       '@vinejs/vine':
         specifier: ^3.0.1
         version: 3.0.1
@@ -68,7 +68,7 @@ importers:
         version: 7.8.2(typescript@5.9.3)
       '@adonisjs/eslint-config':
         specifier: ^2.1.2
-        version: 2.1.2(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.0)(typescript@5.9.3)
+        version: 2.1.2(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
       '@adonisjs/prettier-config':
         specifier: ^1.4.5
         version: 1.4.5
@@ -80,22 +80,22 @@ importers:
         version: 4.2.0(@japa/runner@5.3.0)
       '@japa/plugin-adonisjs':
         specifier: ^4.0.0
-        version: 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)
+        version: 4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)
       '@japa/runner':
         specifier: ^5.3.0
         version: 5.3.0
       '@swc/core':
-        specifier: 1.15.10
-        version: 1.15.10(@swc/helpers@0.5.17)
+        specifier: 1.15.11
+        version: 1.15.11(@swc/helpers@0.5.17)
       '@types/luxon':
         specifier: ^3.7.1
         version: 3.7.1
       '@types/node':
-        specifier: ^24.10.9
-        version: 24.10.9
+        specifier: ^24.10.12
+        version: 24.10.12
       '@vitejs/plugin-vue':
-        specifier: ^6.0.3
-        version: 6.0.3(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))
+        specifier: ^6.0.4
+        version: 6.0.4(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))
       eslint:
         specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
@@ -106,20 +106,20 @@ importers:
         specifier: ^13.1.3
         version: 13.1.3
       prettier:
-        specifier: ^3.8.0
-        version: 3.8.0
+        specifier: ^3.8.1
+        version: 3.8.1
       ts-node-maintained:
         specifier: ^10.9.6
-        version: 10.9.6(@swc/core@1.15.10(@swc/helpers@0.5.17))(@types/node@24.10.9)(typescript@5.9.3)
+        version: 10.9.6(@swc/core@1.15.11(@swc/helpers@0.5.17))(@types/node@24.10.12)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+        version: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
       vue-tsc:
-        specifier: ^3.2.2
-        version: 3.2.2(typescript@5.9.3)
+        specifier: ^3.2.4
+        version: 3.2.4(typescript@5.9.3)
 
 packages:
 
@@ -143,8 +143,8 @@ packages:
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
 
-  '@adonisjs/auth@9.5.1':
-    resolution: {integrity: sha512-rDTSJaeK5DSc+VoicQeLaC7AgO5uQPE/1fuWeZoRgQSv/EIbo4dAxNjTThd33vvz5LgTKV8ug0O2mTi4rpIRCw==}
+  '@adonisjs/auth@9.6.0':
+    resolution: {integrity: sha512-v7wHlY606TwqnWWU5SIMJV0ZcNhjH2LeBLb764eCFVgeNEEdv8konhRcABqTTNADrHr1ANVuV7PymN9gzgG63w==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/core': ^6.11.0
@@ -165,8 +165,8 @@ packages:
       '@japa/plugin-adonisjs':
         optional: true
 
-  '@adonisjs/bodyparser@10.1.2':
-    resolution: {integrity: sha512-Lp419XmpMOq878Ee9V1Iqu2vGHEFBMUrUK3A3Fz3/dCP70E40esRf7wzTvRe+YZfXqQLaz1XCE0xfy3lj9wA9Q==}
+  '@adonisjs/bodyparser@10.1.3':
+    resolution: {integrity: sha512-FtxUbVYDHrW94z4+w1dOTq31TLkD3wAoyVVCQLY9irNOBrjSH9ucKP4tq8tq2jeQffoRh3R2j7jp2VW8psSQcA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/http-server': ^7.4.0
@@ -175,8 +175,8 @@ packages:
     resolution: {integrity: sha512-dO7gkYxZsrsnR8n7d5KUpyi+Q5c6BnV2rmFDqEmEjz5AkOZLLzJJJbeHgMb+M27le7ifEUoa8MRu6RED8NMsJg==}
     engines: {node: '>=18.16.0'}
 
-  '@adonisjs/core@6.19.3':
-    resolution: {integrity: sha512-2XDksJ2In0Jh/ZDRs+dYARhZ01tONtZ4c8MGI5CvwSUcM4WMYUs2GyXGOYihfqtYOhG2URe7iq2Ou+e5k5VjgA==}
+  '@adonisjs/core@6.20.0':
+    resolution: {integrity: sha512-2DpPlQALzPScD5yzDJ4O7ZyzUt3tqHj4zjQDcO2CifhvOnli9tw0xsJpmPVbnogu1Z//N0YB1esOCD7JPmWLxg==}
     engines: {node: '>=20.6.0'}
     hasBin: true
     peerDependencies:
@@ -846,11 +846,11 @@ packages:
     peerDependencies:
       vue: '>=3'
 
-  '@inertiajs/core@2.3.11':
-    resolution: {integrity: sha512-PJV5t38CzncLqlXnox0jo2HZbEZhtS3ssHy6/CZqXwzH7HgctunU8JvfN6v7SgDUvBk+rP5k/I3dfztGeJO0hQ==}
+  '@inertiajs/core@2.3.13':
+    resolution: {integrity: sha512-qMHRnb59k/HehXw/WfQt5kPV0k9RapfFcWJZINJnYMwfHDEJ21iNVZjsJHmDN7yWdZmG1Dxi9FP4xarWWgdosQ==}
 
-  '@inertiajs/vue3@2.3.11':
-    resolution: {integrity: sha512-AyLlEtyoXncrg3sSHogO5HsXy9UdNN+0R5/g4oaoQzGLt45I+YuE45brG9X8/C1jfDkn/sI+SBMCqC0H4B2Gfw==}
+  '@inertiajs/vue3@2.3.13':
+    resolution: {integrity: sha512-e3uAc4Em6GrUo/51IXmckXyv7GTX0QacTGyP80NVXYhcgUJOH/lp+fzLbAhaiTSoG+4zuT/aKMAJRmXXX6CEGg==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -1080,8 +1080,8 @@ packages:
   '@remirror/core-constants@3.0.0':
     resolution: {integrity: sha512-42aWfPrimMfDKDi4YegyS7x+/0tlzaqwPQCULLanv3DMIlu96KTJR0fM5isWX2UViOqlGnX6YFgqWepcX+XMNg==}
 
-  '@rolldown/pluginutils@1.0.0-beta.53':
-    resolution: {integrity: sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ==}
+  '@rolldown/pluginutils@1.0.0-rc.2':
+    resolution: {integrity: sha512-izyXV/v+cHiRfozX62W9htOAvwMo4/bXKDrQ+vom1L1qRuexPock/7VZDAhnpHCLNejd3NJ6hiab+tO0D44Rgw==}
 
   '@rollup/rollup-android-arm-eabi@4.52.5':
     resolution: {integrity: sha512-8c1vW4ocv3UOMp9K+gToY5zL2XiiVw3k7f1ksf4yO1FlDFQ1C2u72iACFnSOceJFsWskc2WZNqeRhFRPzv+wtQ==}
@@ -1117,56 +1117,67 @@ packages:
     resolution: {integrity: sha512-PsNAbcyv9CcecAUagQefwX8fQn9LQ4nZkpDboBOttmyffnInRy8R8dSg6hxxl2Re5QhHBf6FYIDhIj5v982ATQ==}
     cpu: [arm]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.52.5':
     resolution: {integrity: sha512-Fw4tysRutyQc/wwkmcyoqFtJhh0u31K+Q6jYjeicsGJJ7bbEq8LwPWV/w0cnzOqR2m694/Af6hpFayLJZkG2VQ==}
     cpu: [arm]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.52.5':
     resolution: {integrity: sha512-a+3wVnAYdQClOTlyapKmyI6BLPAFYs0JM8HRpgYZQO02rMR09ZcV9LbQB+NL6sljzG38869YqThrRnfPMCDtZg==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.52.5':
     resolution: {integrity: sha512-AvttBOMwO9Pcuuf7m9PkC1PUIKsfaAJ4AYhy944qeTJgQOqJYJ9oVl2nYgY7Rk0mkbsuOpCAYSs6wLYB2Xiw0Q==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-loong64-gnu@4.52.5':
     resolution: {integrity: sha512-DkDk8pmXQV2wVrF6oq5tONK6UHLz/XcEVow4JTTerdeV1uqPeHxwcg7aFsfnSm9L+OO8WJsWotKM2JJPMWrQtA==}
     cpu: [loong64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-ppc64-gnu@4.52.5':
     resolution: {integrity: sha512-W/b9ZN/U9+hPQVvlGwjzi+Wy4xdoH2I8EjaCkMvzpI7wJUs8sWJ03Rq96jRnHkSrcHTpQe8h5Tg3ZzUPGauvAw==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.52.5':
     resolution: {integrity: sha512-sjQLr9BW7R/ZiXnQiWPkErNfLMkkWIoCz7YMn27HldKsADEKa5WYdobaa1hmN6slu9oWQbB6/jFpJ+P2IkVrmw==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.52.5':
     resolution: {integrity: sha512-hq3jU/kGyjXWTvAh2awn8oHroCbrPm8JqM7RUpKjalIRWWXE01CQOf/tUNWNHjmbMHg/hmNCwc/Pz3k1T/j/Lg==}
     cpu: [riscv64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.52.5':
     resolution: {integrity: sha512-gn8kHOrku8D4NGHMK1Y7NA7INQTRdVOntt1OCYypZPRt6skGbddska44K8iocdpxHTMMNui5oH4elPH4QOLrFQ==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.52.5':
     resolution: {integrity: sha512-hXGLYpdhiNElzN770+H2nlx+jRog8TyynpTVzdlc6bndktjKWyZyiCsuDAlpd+j+W+WNqfcyAWz9HxxIGfZm1Q==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.52.5':
     resolution: {integrity: sha512-arCGIcuNKjBoKAXD+y7XomR9gY6Mw7HnFBv5Rw7wQRvwYLR7gBAgV7Mb2QTyjXfTveBNFAtPt46/36vV9STLNg==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-openharmony-arm64@4.52.5':
     resolution: {integrity: sha512-QoFqB6+/9Rly/RiPjaomPLmR/13cgkIGfA40LHly9zcH1S0bN2HVFYk3a1eAyHQyjs3ZJYlXvIGtcCs5tko9Cw==}
@@ -1227,68 +1238,72 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@swc/core-darwin-arm64@1.15.10':
-    resolution: {integrity: sha512-U72pGqmJYbjrLhMndIemZ7u9Q9owcJczGxwtfJlz/WwMaGYAV/g4nkGiUVk/+QSX8sFCAjanovcU1IUsP2YulA==}
+  '@swc/core-darwin-arm64@1.15.11':
+    resolution: {integrity: sha512-QoIupRWVH8AF1TgxYyeA5nS18dtqMuxNwchjBIwJo3RdwLEFiJq6onOx9JAxHtuPwUkIVuU2Xbp+jCJ7Vzmgtg==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.15.10':
-    resolution: {integrity: sha512-NZpDXtwHH083L40xdyj1sY31MIwLgOxKfZEAGCI8xHXdHa+GWvEiVdGiu4qhkJctoHFzAEc7ZX3GN5phuJcPuQ==}
+  '@swc/core-darwin-x64@1.15.11':
+    resolution: {integrity: sha512-S52Gu1QtPSfBYDiejlcfp9GlN+NjTZBRRNsz8PNwBgSE626/FUf2PcllVUix7jqkoMC+t0rS8t+2/aSWlMuQtA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.15.10':
-    resolution: {integrity: sha512-ioieF5iuRziUF1HkH1gg1r93e055dAdeBAPGAk40VjqpL5/igPJ/WxFHGvc6WMLhUubSJI4S0AiZAAhEAp1jDg==}
+  '@swc/core-linux-arm-gnueabihf@1.15.11':
+    resolution: {integrity: sha512-lXJs8oXo6Z4yCpimpQ8vPeCjkgoHu5NoMvmJZ8qxDyU99KVdg6KwU9H79vzrmB+HfH+dCZ7JGMqMF//f8Cfvdg==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.15.10':
-    resolution: {integrity: sha512-tD6BClOrxSsNus9cJL7Gxdv7z7Y2hlyvZd9l0NQz+YXzmTWqnfzLpg16ovEI7gknH2AgDBB5ywOsqu8hUgSeEQ==}
+  '@swc/core-linux-arm64-gnu@1.15.11':
+    resolution: {integrity: sha512-chRsz1K52/vj8Mfq/QOugVphlKPWlMh10V99qfH41hbGvwAU6xSPd681upO4bKiOr9+mRIZZW+EfJqY42ZzRyA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
-  '@swc/core-linux-arm64-musl@1.15.10':
-    resolution: {integrity: sha512-4uAHO3nbfbrTcmO/9YcVweTQdx5fN3l7ewwl5AEK4yoC4wXmoBTEPHAVdKNe4r9+xrTgd4BgyPsy0409OjjlMw==}
+  '@swc/core-linux-arm64-musl@1.15.11':
+    resolution: {integrity: sha512-PYftgsTaGnfDK4m6/dty9ryK1FbLk+LosDJ/RJR2nkXGc8rd+WenXIlvHjWULiBVnS1RsjHHOXmTS4nDhe0v0w==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
-  '@swc/core-linux-x64-gnu@1.15.10':
-    resolution: {integrity: sha512-W0h9ONNw1pVIA0cN7wtboOSTl4Jk3tHq+w2cMPQudu9/+3xoCxpFb9ZdehwCAk29IsvdWzGzY6P7dDVTyFwoqg==}
+  '@swc/core-linux-x64-gnu@1.15.11':
+    resolution: {integrity: sha512-DKtnJKIHiZdARyTKiX7zdRjiDS1KihkQWatQiCHMv+zc2sfwb4Glrodx2VLOX4rsa92NLR0Sw8WLcPEMFY1szQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
-  '@swc/core-linux-x64-musl@1.15.10':
-    resolution: {integrity: sha512-XQNZlLZB62S8nAbw7pqoqwy91Ldy2RpaMRqdRN3T+tAg6Xg6FywXRKCsLh6IQOadr4p1+lGnqM/Wn35z5a/0Vw==}
+  '@swc/core-linux-x64-musl@1.15.11':
+    resolution: {integrity: sha512-mUjjntHj4+8WBaiDe5UwRNHuEzLjIWBTSGTw0JT9+C9/Yyuh4KQqlcEQ3ro6GkHmBGXBFpGIj/o5VMyRWfVfWw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
-  '@swc/core-win32-arm64-msvc@1.15.10':
-    resolution: {integrity: sha512-qnAGrRv5Nj/DATxAmCnJQRXXQqnJwR0trxLndhoHoxGci9MuguNIjWahS0gw8YZFjgTinbTxOwzatkoySihnmw==}
+  '@swc/core-win32-arm64-msvc@1.15.11':
+    resolution: {integrity: sha512-ZkNNG5zL49YpaFzfl6fskNOSxtcZ5uOYmWBkY4wVAvgbSAQzLRVBp+xArGWh2oXlY/WgL99zQSGTv7RI5E6nzA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.15.10':
-    resolution: {integrity: sha512-i4X/q8QSvzVlaRtv1xfnfl+hVKpCfiJ+9th484rh937fiEZKxZGf51C+uO0lfKDP1FfnT6C1yBYwHy7FLBVXFw==}
+  '@swc/core-win32-ia32-msvc@1.15.11':
+    resolution: {integrity: sha512-6XnzORkZCQzvTQ6cPrU7iaT9+i145oLwnin8JrfsLG41wl26+5cNQ2XV3zcbrnFEV6esjOceom9YO1w9mGJByw==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.15.10':
-    resolution: {integrity: sha512-HvY8XUFuoTXn6lSccDLYFlXv1SU/PzYi4PyUqGT++WfTnbw/68N/7BdUZqglGRwiSqr0qhYt/EhmBpULj0J9rA==}
+  '@swc/core-win32-x64-msvc@1.15.11':
+    resolution: {integrity: sha512-IQ2n6af7XKLL6P1gIeZACskSxK8jWtoKpJWLZmdXTDj1MGzktUy4i+FvpdtxFmJWNavRWH1VmTr6kAubRDHeKw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.15.10':
-    resolution: {integrity: sha512-udNofxftduMUEv7nqahl2nvodCiCDQ4Ge0ebzsEm6P8s0RC2tBM0Hqx0nNF5J/6t9uagFJyWIDjXy3IIWMHDJw==}
+  '@swc/core@1.15.11':
+    resolution: {integrity: sha512-iLmLTodbYxU39HhMPaMUooPwO/zqJWvsqkrXv1ZI38rMb048p6N7qtAtTp37sw9NzSrvH6oli8EdDygo09IZ/w==}
     engines: {node: '>=10'}
     peerDependencies:
       '@swc/helpers': '>=0.5.17'
@@ -1343,24 +1358,28 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@tailwindcss/oxide-linux-arm64-musl@4.1.18':
     resolution: {integrity: sha512-1px92582HkPQlaaCkdRcio71p8bc8i/ap5807tPRDK/uw953cauQBT8c5tVGkOwrHMfc2Yh6UuxaH4vtTjGvHg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@tailwindcss/oxide-linux-x64-gnu@4.1.18':
     resolution: {integrity: sha512-v3gyT0ivkfBLoZGF9LyHmts0Isc8jHZyVcbzio6Wpzifg/+5ZJpDiRiUhDLkcr7f/r38SWNe7ucxmGW3j3Kb/g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@tailwindcss/oxide-linux-x64-musl@4.1.18':
     resolution: {integrity: sha512-bhJ2y2OQNlcRwwgOAGMY0xTFStt4/wyU6pvI6LSuZpRgKQwxTec0/3Scu91O8ir7qCR3AuepQKLU/kX99FouqQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@tailwindcss/oxide-wasm32-wasi@4.1.18':
     resolution: {integrity: sha512-LffYTvPjODiP6PT16oNeUQJzNVyJl1cjIebq/rWWBF+3eDst5JGEFSc5cWxyRCJ0Mxl+KyIkqRxk1XPEs9x8TA==}
@@ -1694,8 +1713,8 @@ packages:
   '@types/node@18.19.130':
     resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
 
-  '@types/node@24.10.9':
-    resolution: {integrity: sha512-ne4A0IpG3+2ETuREInjPNhUGis1SFjv1d5asp8MzEAGtOZeTeHVDOYqOgqfhvseqg/iXty2hjBf1zAOb7RNiNw==}
+  '@types/node@24.10.12':
+    resolution: {integrity: sha512-68e+T28EbdmLSTkPgs3+UacC6rzmqrcWFPQs1C8mwJhI/r5Uxr0yEuQotczNRROd1gq30NGxee+fo0rSIxpyAw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1792,8 +1811,8 @@ packages:
     resolution: {integrity: sha512-ZtvYkYpZOYdvbws3uaOAvTFuvFXoQGAtmzeiXu+XSMGxi5GVsODpoI9Xu9TplEMuD/5fmAtBbKb9cQHkWkLXDQ==}
     engines: {node: '>=18.16.0'}
 
-  '@vitejs/plugin-vue@6.0.3':
-    resolution: {integrity: sha512-TlGPkLFLVOY3T7fZrwdvKpjprR3s4fxRln0ORDo1VQ7HHyxJwTlrjKU3kpVWTlaAjIEuCTokmjkZnr8Tpc925w==}
+  '@vitejs/plugin-vue@6.0.4':
+    resolution: {integrity: sha512-uM5iXipgYIn13UUQCZNdWkYk+sysBeA97d5mHsAoAt1u/wpN3+zxOmsVJWosuzX+IMGRzeYUNytztrYznboIkQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
@@ -1820,8 +1839,8 @@ packages:
   '@vue/compiler-ssr@3.5.27':
     resolution: {integrity: sha512-Sj7h+JHt512fV1cTxKlYhg7qxBvack+BGncSpH+8vnN+KN95iPIcqB5rsbblX40XorP+ilO7VIKlkuu3Xq2vjw==}
 
-  '@vue/language-core@3.2.2':
-    resolution: {integrity: sha512-5DAuhxsxBN9kbriklh3Q5AMaJhyOCNiQJvCskN9/30XOpdLiqZU9Q+WvjArP17ubdGEyZtBzlIeG5nIjEbNOrQ==}
+  '@vue/language-core@3.2.4':
+    resolution: {integrity: sha512-bqBGuSG4KZM45KKTXzGtoCl9cWju5jsaBKaJJe3h5hRAAWpZUuj5G+L+eI01sPIkm4H6setKRlw7E85wLdDNew==}
 
   '@vue/reactivity@3.5.27':
     resolution: {integrity: sha512-vvorxn2KXfJ0nBEnj4GYshSgsyMNFnIQah/wczXlsNXt+ijhugmW+PpJ2cNPe4V6jpnBcs0MhCODKllWG+nvoQ==}
@@ -3098,8 +3117,8 @@ packages:
   knitwork@1.3.0:
     resolution: {integrity: sha512-4LqMNoONzR43B1W0ek0fhXMsDNW/zxa1NdFAVMY+k28pgZLovR4G3PB5MrpTxCy1QaZCqNoiaKPr5w5qZHfSNw==}
 
-  laravel-precognition@1.0.0:
-    resolution: {integrity: sha512-hvXPT7dayCQAidxnsY0hab9Q+Y2rsh7xRpH9uiFtXN8Dekc3tIZt+NrxrOZ9N5SwHBmRBze/Bv+ElfXac0kD6g==}
+  laravel-precognition@1.0.2:
+    resolution: {integrity: sha512-0H08JDdMWONrL/N314fvsO3FATJwGGlFKGkMF3nNmizVFJaWs17816iM+sX7Rp8d5hUjYCx6WLfsehSKfaTxjg==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -3145,24 +3164,28 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-arm64-musl@1.30.2:
     resolution: {integrity: sha512-5Vh9dGeblpTxWHpOx8iauV02popZDsCYMPIgiuw97OJ5uaDsL86cnqSFs5LZkG3ghHoX5isLgWzMs+eD1YzrnA==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-linux-x64-gnu@1.30.2:
     resolution: {integrity: sha512-Cfd46gdmj1vQ+lR6VRTTadNHu6ALuw2pKR9lYq4FnhvgBc4zWY1EtZcAc6EffShbb1MFrIPfLDXD6Xprbnni4w==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-x64-musl@1.30.2:
     resolution: {integrity: sha512-XJaLUUFXb6/QG2lGIW6aIk6jKdtjtcffUT0NKvIqhSBY3hh9Ch+1LCeH80dR9q9LBjG3ewbDjnumefsLsP6aiA==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-win32-arm64-msvc@1.30.2:
     resolution: {integrity: sha512-FZn+vaj7zLv//D/192WFFVA0RgHawIcHqLX9xuWiQt7P0PtdFEVaxgF9rjM/IRYHQXNnk61/H/gb2Ei+kUQ4xQ==}
@@ -3201,8 +3224,8 @@ packages:
   lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
-  lodash-es@4.17.22:
-    resolution: {integrity: sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==}
+  lodash-es@4.17.23:
+    resolution: {integrity: sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==}
 
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
@@ -3600,8 +3623,8 @@ packages:
   prettier-plugin-edgejs@1.0.6:
     resolution: {integrity: sha512-RZ3xPEiHfw6ca/YzfKmu6rSOviheC9THfGlqg7rs8srbr1RugJQ8k3KmjLHH1oXadQBzZeIeZ3d25Dhs+fe4UA==}
 
-  prettier@3.8.0:
-    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4421,8 +4444,8 @@ packages:
       '@vue/composition-api':
         optional: true
 
-  vue-tsc@3.2.2:
-    resolution: {integrity: sha512-r9YSia/VgGwmbbfC06hDdAatH634XJ9nVl6Zrnz1iK4ucp8Wu78kawplXnIDa3MSu1XdQQePTHLXYwPDWn+nyQ==}
+  vue-tsc@3.2.4:
+    resolution: {integrity: sha512-xj3YCvSLNDKt1iF9OcImWHhmYcihVu9p4b9s4PGR/qp6yhW+tZJaypGxHScRyOrdnHvaOeF+YkZOdKwbgGvp5g==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -4559,20 +4582,20 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@9.5.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0))':
+  '@adonisjs/auth@9.6.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0))':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
-      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
       '@poppinss/utils': 6.10.1
       basic-auth: 2.0.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
-      '@adonisjs/session': 7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
-      '@japa/plugin-adonisjs': 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)
+      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
+      '@adonisjs/session': 7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
+      '@japa/plugin-adonisjs': 4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)
     transitivePeerDependencies:
       - '@adonisjs/assembler'
 
-  '@adonisjs/bodyparser@10.1.2(@adonisjs/http-server@7.8.0(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))':
+  '@adonisjs/bodyparser@10.1.3(@adonisjs/http-server@7.8.0(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))':
     dependencies:
       '@adonisjs/http-server': 7.8.0(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7)
       '@paralleldrive/cuid2': 2.3.1
@@ -4593,11 +4616,11 @@ snapshots:
     dependencies:
       '@poppinss/utils': 6.10.1
 
-  '@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)':
+  '@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)':
     dependencies:
       '@adonisjs/ace': 13.4.0
       '@adonisjs/application': 8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1)
-      '@adonisjs/bodyparser': 10.1.2(@adonisjs/http-server@7.8.0(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))
+      '@adonisjs/bodyparser': 10.1.3(@adonisjs/http-server@7.8.0(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/encryption@6.0.2)(@adonisjs/events@9.0.2(@adonisjs/application@8.4.2(@adonisjs/config@5.0.3)(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1))(@adonisjs/fold@10.2.1)(@adonisjs/logger@6.0.7))
       '@adonisjs/config': 5.0.3
       '@adonisjs/encryption': 6.0.2
       '@adonisjs/env': 6.2.0
@@ -4630,9 +4653,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@adonisjs/cors@2.2.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
+  '@adonisjs/cors@2.2.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
 
   '@adonisjs/encryption@6.0.2':
     dependencies:
@@ -4645,15 +4668,15 @@ snapshots:
       dotenv: 16.6.1
       split-lines: 3.0.0
 
-  '@adonisjs/eslint-config@2.1.2(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.0)(typescript@5.9.3)':
+  '@adonisjs/eslint-config@2.1.2(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)':
     dependencies:
       '@adonisjs/eslint-plugin': 2.0.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@stylistic/eslint-plugin': 5.5.0(eslint@9.39.2(jiti@2.6.1))
       eslint: 9.39.2(jiti@2.6.1)
       eslint-config-prettier: 10.1.8(eslint@9.39.2(jiti@2.6.1))
-      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.0)
+      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1)
       eslint-plugin-unicorn: 60.0.0(eslint@9.39.2(jiti@2.6.1))
-      prettier: 3.8.0
+      prettier: 3.8.1
       typescript-eslint: 8.46.2(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     transitivePeerDependencies:
       - '@types/eslint'
@@ -4720,11 +4743,11 @@ snapshots:
       vary: 1.1.2
       youch: 3.3.4
 
-  '@adonisjs/inertia@3.1.1(43a45a4cb4585c39ada816fd57faf77b)':
+  '@adonisjs/inertia@3.1.1(555332b3642d515ca5b2a32786feb8ba)':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
-      '@adonisjs/session': 7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
-      '@adonisjs/vite': 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/session': 7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
+      '@adonisjs/vite': 4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       '@poppinss/utils': 6.10.1
       '@tuyau/utils': 0.0.7
       edge-error: 4.0.2
@@ -4739,10 +4762,10 @@ snapshots:
       abstract-logging: 2.0.1
       pino: 10.2.1
 
-  '@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)':
+  '@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
-      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
       '@faker-js/faker': 9.9.0
       '@poppinss/hooks': 7.3.0
       '@poppinss/macroable': 1.1.0
@@ -4770,9 +4793,9 @@ snapshots:
       - supports-color
       - tedious
 
-  '@adonisjs/presets@2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
+  '@adonisjs/presets@2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@poppinss/utils': 6.10.1
     optionalDependencies:
       '@adonisjs/assembler': 7.8.2(typescript@5.9.3)
@@ -4786,44 +4809,44 @@ snapshots:
       '@poppinss/colors': 4.1.6
       string-width: 7.2.0
 
-  '@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)':
+  '@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@poppinss/macroable': 1.1.0
       '@poppinss/utils': 6.10.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
+      '@adonisjs/lucid': 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
       edge.js: 6.4.0
 
-  '@adonisjs/shield@8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)':
+  '@adonisjs/shield@8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
-      '@adonisjs/session': 7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/session': 7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
       '@poppinss/utils': 6.10.1
       csrf: 3.1.0
       helmet-csp: 3.4.0
     optionalDependencies:
       edge.js: 6.4.0
 
-  '@adonisjs/static@1.1.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
+  '@adonisjs/static@1.1.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       serve-static: 1.16.2
     transitivePeerDependencies:
       - supports-color
 
   '@adonisjs/tsconfig@1.4.1': {}
 
-  '@adonisjs/vite@4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@adonisjs/vite@4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@poppinss/utils': 6.10.1
-      '@vavite/multibuild': 5.1.0(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@vavite/multibuild': 5.1.0(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       edge-error: 4.0.2
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
-      vite-plugin-restart: 0.4.2(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite-plugin-restart: 0.4.2(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
     optionalDependencies:
-      '@adonisjs/shield': 8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)
+      '@adonisjs/shield': 8.2.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0)
       edge.js: 6.4.0
 
   '@alloc/quick-lru@5.2.0': {}
@@ -5150,22 +5173,22 @@ snapshots:
       '@iconify/types': 2.0.0
       vue: 3.5.27(typescript@5.9.3)
 
-  '@inertiajs/core@2.3.11':
+  '@inertiajs/core@2.3.13':
     dependencies:
       '@types/lodash-es': 4.17.12
       axios: 1.13.2
-      laravel-precognition: 1.0.0
-      lodash-es: 4.17.22
+      laravel-precognition: 1.0.2
+      lodash-es: 4.17.23
       qs: 6.14.1
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/vue3@2.3.11(vue@3.5.27(typescript@5.9.3))':
+  '@inertiajs/vue3@2.3.13(vue@3.5.27(typescript@5.9.3))':
     dependencies:
-      '@inertiajs/core': 2.3.11
+      '@inertiajs/core': 2.3.13
       '@types/lodash-es': 4.17.12
-      laravel-precognition: 1.0.0
-      lodash-es: 4.17.22
+      laravel-precognition: 1.0.2
+      lodash-es: 4.17.23
       vue: 3.5.27(typescript@5.9.3)
     transitivePeerDependencies:
       - debug
@@ -5202,9 +5225,9 @@ snapshots:
       supports-color: 10.2.2
       youch: 4.1.0-beta.13
 
-  '@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)':
+  '@japa/plugin-adonisjs@4.0.0(@adonisjs/core@6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)':
     dependencies:
-      '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
+      '@adonisjs/core': 6.20.0(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@japa/runner': 5.3.0
 
   '@japa/runner@5.3.0':
@@ -5267,24 +5290,24 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@nuxt/devtools-kit@3.1.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@nuxt/devtools-kit@3.1.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@nuxt/kit': 4.2.2
       execa: 8.0.1
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/fonts@0.12.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@nuxt/fonts@0.12.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
-      '@nuxt/devtools-kit': 3.1.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@nuxt/devtools-kit': 3.1.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       '@nuxt/kit': 4.2.2
       consola: 3.4.2
       css-tree: 3.1.0
       defu: 6.1.4
       esbuild: 0.25.12
       fontaine: 0.7.0
-      fontless: 0.1.0(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      fontless: 0.1.0(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       h3: 1.15.4
       jiti: 2.6.1
       magic-regexp: 0.10.0
@@ -5321,13 +5344,13 @@ snapshots:
       - uploadthing
       - vite
 
-  '@nuxt/icon@2.2.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))':
+  '@nuxt/icon@2.2.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))':
     dependencies:
       '@iconify/collections': 1.0.641
       '@iconify/types': 2.0.0
       '@iconify/utils': 3.1.0
       '@iconify/vue': 5.0.0(vue@3.5.27(typescript@5.9.3))
-      '@nuxt/devtools-kit': 3.1.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@nuxt/devtools-kit': 3.1.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       '@nuxt/kit': 4.2.2
       consola: 3.4.2
       local-pkg: 1.1.2
@@ -5403,20 +5426,20 @@ snapshots:
       pkg-types: 2.3.0
       std-env: 3.10.0
 
-  '@nuxt/ui@4.4.0(@inertiajs/vue3@2.3.11(vue@3.5.27(typescript@5.9.3)))(@tiptap/extensions@3.16.0(@tiptap/core@3.16.0(@tiptap/pm@3.16.0))(@tiptap/pm@3.16.0))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(axios@1.13.2)(change-case@5.4.4)(embla-carousel@8.6.0)(tailwindcss@4.1.18)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))(yjs@13.6.28)(zod@4.1.12)':
+  '@nuxt/ui@4.4.0(@inertiajs/vue3@2.3.13(vue@3.5.27(typescript@5.9.3)))(@tiptap/extensions@3.16.0(@tiptap/core@3.16.0(@tiptap/pm@3.16.0))(@tiptap/pm@3.16.0))(@tiptap/y-tiptap@3.0.1(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.4)(y-protocols@1.0.7(yjs@13.6.28))(yjs@13.6.28))(axios@1.13.2)(change-case@5.4.4)(embla-carousel@8.6.0)(tailwindcss@4.1.18)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))(yjs@13.6.28)(zod@4.1.12)':
     dependencies:
       '@floating-ui/dom': 1.7.4
       '@iconify/vue': 5.0.0(vue@3.5.27(typescript@5.9.3))
       '@internationalized/date': 3.10.1
       '@internationalized/number': 3.6.5
-      '@nuxt/fonts': 0.12.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
-      '@nuxt/icon': 2.2.1(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))
+      '@nuxt/fonts': 0.12.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@nuxt/icon': 2.2.1(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))
       '@nuxt/kit': 4.2.2
       '@nuxt/schema': 4.2.2
       '@nuxtjs/color-mode': 3.5.2
       '@standard-schema/spec': 1.1.0
       '@tailwindcss/postcss': 4.1.18
-      '@tailwindcss/vite': 4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@tailwindcss/vite': 4.1.18(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))
       '@tanstack/vue-table': 8.21.3(vue@3.5.27(typescript@5.9.3))
       '@tanstack/vue-virtual': 3.13.18(vue@3.5.27(typescript@5.9.3))
       '@tiptap/core': 3.16.0(@tiptap/pm@3.16.0)
@@ -5472,7 +5495,7 @@ snapshots:
       vaul-vue: 0.4.1(reka-ui@2.7.0(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))
       vue-component-type-helpers: 3.2.2
     optionalDependencies:
-      '@inertiajs/vue3': 2.3.11(vue@3.5.27(typescript@5.9.3))
+      '@inertiajs/vue3': 2.3.13(vue@3.5.27(typescript@5.9.3))
       zod: 4.1.12
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -5628,7 +5651,7 @@ snapshots:
 
   '@remirror/core-constants@3.0.0': {}
 
-  '@rolldown/pluginutils@1.0.0-beta.53': {}
+  '@rolldown/pluginutils@1.0.0-rc.2': {}
 
   '@rollup/rollup-android-arm-eabi@4.52.5':
     optional: true
@@ -5722,51 +5745,51 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.3
 
-  '@swc/core-darwin-arm64@1.15.10':
+  '@swc/core-darwin-arm64@1.15.11':
     optional: true
 
-  '@swc/core-darwin-x64@1.15.10':
+  '@swc/core-darwin-x64@1.15.11':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.15.10':
+  '@swc/core-linux-arm-gnueabihf@1.15.11':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.15.10':
+  '@swc/core-linux-arm64-gnu@1.15.11':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.15.10':
+  '@swc/core-linux-arm64-musl@1.15.11':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.15.10':
+  '@swc/core-linux-x64-gnu@1.15.11':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.15.10':
+  '@swc/core-linux-x64-musl@1.15.11':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.15.10':
+  '@swc/core-win32-arm64-msvc@1.15.11':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.15.10':
+  '@swc/core-win32-ia32-msvc@1.15.11':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.15.10':
+  '@swc/core-win32-x64-msvc@1.15.11':
     optional: true
 
-  '@swc/core@1.15.10(@swc/helpers@0.5.17)':
+  '@swc/core@1.15.11(@swc/helpers@0.5.17)':
     dependencies:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.25
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.15.10
-      '@swc/core-darwin-x64': 1.15.10
-      '@swc/core-linux-arm-gnueabihf': 1.15.10
-      '@swc/core-linux-arm64-gnu': 1.15.10
-      '@swc/core-linux-arm64-musl': 1.15.10
-      '@swc/core-linux-x64-gnu': 1.15.10
-      '@swc/core-linux-x64-musl': 1.15.10
-      '@swc/core-win32-arm64-msvc': 1.15.10
-      '@swc/core-win32-ia32-msvc': 1.15.10
-      '@swc/core-win32-x64-msvc': 1.15.10
+      '@swc/core-darwin-arm64': 1.15.11
+      '@swc/core-darwin-x64': 1.15.11
+      '@swc/core-linux-arm-gnueabihf': 1.15.11
+      '@swc/core-linux-arm64-gnu': 1.15.11
+      '@swc/core-linux-arm64-musl': 1.15.11
+      '@swc/core-linux-x64-gnu': 1.15.11
+      '@swc/core-linux-x64-musl': 1.15.11
+      '@swc/core-win32-arm64-msvc': 1.15.11
+      '@swc/core-win32-ia32-msvc': 1.15.11
+      '@swc/core-win32-x64-msvc': 1.15.11
       '@swc/helpers': 0.5.17
 
   '@swc/counter@0.1.3': {}
@@ -5848,12 +5871,12 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.18
 
-  '@tailwindcss/vite@4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@tailwindcss/vite@4.1.18(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@tailwindcss/node': 4.1.18
       '@tailwindcss/oxide': 4.1.18
       tailwindcss: 4.1.18
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
 
   '@tanstack/table-core@8.21.3': {}
 
@@ -6159,7 +6182,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@24.10.9':
+  '@types/node@24.10.12':
     dependencies:
       undici-types: 7.16.0
 
@@ -6274,12 +6297,12 @@ snapshots:
       unhead: 2.1.2
       vue: 3.5.27(typescript@5.9.3)
 
-  '@vavite/multibuild@5.1.0(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@vavite/multibuild@5.1.0(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
       '@types/node': 18.19.130
       cac: 6.7.14
       picocolors: 1.1.1
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
 
   '@vinejs/compiler@3.0.0': {}
 
@@ -6294,10 +6317,10 @@ snapshots:
       normalize-url: 8.1.0
       validator: 13.15.20
 
-  '@vitejs/plugin-vue@6.0.3(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.4(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2))(vue@3.5.27(typescript@5.9.3))':
     dependencies:
-      '@rolldown/pluginutils': 1.0.0-beta.53
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      '@rolldown/pluginutils': 1.0.0-rc.2
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
       vue: 3.5.27(typescript@5.9.3)
 
   '@volar/language-core@2.4.27':
@@ -6342,7 +6365,7 @@ snapshots:
       '@vue/compiler-dom': 3.5.27
       '@vue/shared': 3.5.27
 
-  '@vue/language-core@3.2.2':
+  '@vue/language-core@3.2.4':
     dependencies:
       '@volar/language-core': 2.4.27
       '@vue/compiler-dom': 3.5.27
@@ -7010,10 +7033,10 @@ snapshots:
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
 
-  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.0):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@10.1.8(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))(prettier@3.8.1):
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
-      prettier: 3.8.0
+      prettier: 3.8.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -7248,7 +7271,7 @@ snapshots:
       unicode-properties: 1.4.1
       unicode-trie: 2.0.0
 
-  fontless@0.1.0(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)):
+  fontless@0.1.0(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)):
     dependencies:
       consola: 3.4.2
       css-tree: 3.1.0
@@ -7264,7 +7287,7 @@ snapshots:
       unifont: 0.6.0
       unstorage: 1.17.3
     optionalDependencies:
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7600,10 +7623,10 @@ snapshots:
 
   knitwork@1.3.0: {}
 
-  laravel-precognition@1.0.0:
+  laravel-precognition@1.0.2:
     dependencies:
       axios: 1.13.2
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
     transitivePeerDependencies:
       - debug
 
@@ -7687,7 +7710,7 @@ snapshots:
 
   lodash-es@4.17.21: {}
 
-  lodash-es@4.17.22: {}
+  lodash-es@4.17.23: {}
 
   lodash.merge@4.6.2: {}
 
@@ -8076,10 +8099,10 @@ snapshots:
     dependencies:
       '@adobe/css-tools': 4.4.4
       edgejs-parser: 0.2.18
-      prettier: 3.8.0
+      prettier: 3.8.1
       uglify-js: 3.19.3
 
-  prettier@3.8.0: {}
+  prettier@3.8.1: {}
 
   pretty-format@30.2.0:
     dependencies:
@@ -8648,14 +8671,14 @@ snapshots:
       '@ts-morph/common': 0.24.0
       code-block-writer: 13.0.3
 
-  ts-node-maintained@10.9.6(@swc/core@1.15.10(@swc/helpers@0.5.17))(@types/node@24.10.9)(typescript@5.9.3):
+  ts-node-maintained@10.9.6(@swc/core@1.15.11(@swc/helpers@0.5.17))(@types/node@24.10.12)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 24.10.9
+      '@types/node': 24.10.12
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -8666,7 +8689,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     optionalDependencies:
-      '@swc/core': 1.15.10(@swc/helpers@0.5.17)
+      '@swc/core': 1.15.11(@swc/helpers@0.5.17)
 
   tslib@2.8.1: {}
 
@@ -8860,12 +8883,12 @@ snapshots:
     transitivePeerDependencies:
       - '@vue/composition-api'
 
-  vite-plugin-restart@0.4.2(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)):
+  vite-plugin-restart@0.4.2(vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)):
     dependencies:
       micromatch: 4.0.8
-      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2)
+      vite: 7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2)
 
-  vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2):
+  vite@7.3.1(@types/node@24.10.12)(jiti@2.6.1)(lightningcss@1.30.2):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -8874,7 +8897,7 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.9
+      '@types/node': 24.10.12
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.2
@@ -8887,10 +8910,10 @@ snapshots:
     dependencies:
       vue: 3.5.27(typescript@5.9.3)
 
-  vue-tsc@3.2.2(typescript@5.9.3):
+  vue-tsc@3.2.4(typescript@5.9.3):
     dependencies:
       '@volar/typescript': 2.4.27
-      '@vue/language-core': 3.2.2
+      '@vue/language-core': 3.2.4
       typescript: 5.9.3
 
   vue@3.5.27(typescript@5.9.3):
