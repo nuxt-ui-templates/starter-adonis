@@ -18,8 +18,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))
       '@adonisjs/inertia':
-        specifier: ^3.1.1
-        version: 3.1.1(43a45a4cb4585c39ada816fd57faf77b)
+        specifier: ^4.2.0
+        version: 4.2.0(a2bd65d339f304483915b494940d9670)
       '@adonisjs/lucid':
         specifier: ^21.8.1
         version: 21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2)
@@ -260,17 +260,38 @@ packages:
       '@adonisjs/fold': ^10.0.1
       '@adonisjs/logger': ^6.0.1
 
-  '@adonisjs/inertia@3.1.1':
-    resolution: {integrity: sha512-FWzAfGjjnh3jEB7sIx20xcNlKW+zHCBDE37fNasQK5QMrcuz0BzTRfb0jTuvyjgadbCksdge+rDtIOek1tId7A==}
-    engines: {node: '>=20.6.0'}
+  '@adonisjs/inertia@4.2.0':
+    resolution: {integrity: sha512-AL5IWsoA/qf34AMHf3H+YQydm9v7pj3daOeWLuRn6FxwSkald1zEo5lS7aBD4Nbsn3fJKPKvBlO9BSeIAw1FYQ==}
+    engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@adonisjs/core': ^6.9.1
-      '@adonisjs/session': ^7.4.0
-      '@adonisjs/vite': ^4.0.0
-      '@japa/api-client': ^2.0.0 || ^3.0.0
-      edge.js: ^6.0.0
+      '@adonisjs/assembler': ^8.0.0-next.29 || ^8.0.0
+      '@adonisjs/core': ^7.0.0-next.23 || ^7.0.0
+      '@adonisjs/session': ^8.0.0-next.2 || ^8.0.0
+      '@adonisjs/vite': ^5.1.0-next.2 || ^5.1.0
+      '@inertiajs/react': ^2.3.8
+      '@inertiajs/vue3': ^2.3.8
+      '@japa/api-client': ^3.1.1
+      '@japa/plugin-adonisjs': ^5.1.0-next.1 || ^5.1.0
+      '@tuyau/core': ^1.0.0-beta.10 || ^1.0.0
+      edge.js: ^6.4.0
+      react: ^19.2.3
+      vue: ^3.5.17
     peerDependenciesMeta:
+      '@adonisjs/assembler':
+        optional: true
+      '@inertiajs/react':
+        optional: true
+      '@inertiajs/vue3':
+        optional: true
       '@japa/api-client':
+        optional: true
+      '@japa/plugin-adonisjs':
+        optional: true
+      '@tuyau/core':
+        optional: true
+      react:
+        optional: true
+      vue:
         optional: true
 
   '@adonisjs/logger@6.0.7':
@@ -1071,8 +1092,8 @@ packages:
     resolution: {integrity: sha512-da+MMyeXhBaKtxQiWPfy7+056wk3lVIhioJnXHXkJ2/OHDaZfFcyKHNl1R06sdYO8lIRXcXdoZ6LO2ARmkAREA==}
     engines: {node: '>=18.16.0'}
 
-  '@poppinss/utils@7.0.0-next.6':
-    resolution: {integrity: sha512-1OQDbCKmFROvWpmzvkQV/mCzBXSwhED8SJfJ0HiYKiLNEqYM8Kpa4EK0AfmXGQc+DdIj6eqib/vT8i5tJ2fatw==}
+  '@poppinss/utils@7.0.1':
+    resolution: {integrity: sha512-mveSvLI2YPC114mK5HCuSYfUtjpClf1wHG1VCqZJCp4U2ypPhIt62Iku5urh0kPAFvnvCVHx2bXBSH14qMTOlQ==}
 
   '@poppinss/validator-lite@2.1.2':
     resolution: {integrity: sha512-UhSG1ouT6r67VbEFHK/8ax3EMZYHioew9PqGmEZjV41G15aPZi6cyhXtBVvF9xqkHMflA5V680k7bQzV0kfD5w==}
@@ -1655,9 +1676,6 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tuyau/utils@0.0.7':
-    resolution: {integrity: sha512-Y1JgQoshbcxEwmajeWpJibBmoBlGuEq38ICKmWQ5dS+ESqY0J0757rWcHAQgiB74J1vf/DxHkt8veBRSKTAjJQ==}
-
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
 
@@ -1781,6 +1799,7 @@ packages:
 
   '@vavite/multibuild@5.1.0':
     resolution: {integrity: sha512-xhJS6oAhQqDCRFFmpZWNCcAJw7145pvlfKX/IOCQX7oqulbw9amH9rdrNXmwz79UeYgOwxXpWfEavyYTPLY1KQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       vite: ^2.8.1 || 3 || 4 || 5 || 6
 
@@ -3194,10 +3213,6 @@ packages:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
 
-  locate-path@7.2.0:
-    resolution: {integrity: sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
   lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
@@ -3458,17 +3473,9 @@ packages:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
 
-  p-limit@4.0.0:
-    resolution: {integrity: sha512-5b0R4txpzjPWVw/cXXUResoD4hb6U/x9BH08L7nw+GN1sezDzPdxeRvpc9c433fZhBan/wusjbCsqwqm4EIBIQ==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
   p-locate@5.0.0:
     resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==}
     engines: {node: '>=10'}
-
-  p-locate@6.0.0:
-    resolution: {integrity: sha512-wPrq66Llhl7/4AGC6I+cqxT07LhXvWL08LNXz1fENOw0Ap4sRZZ/gZpTTJ5jpurzzzfS2W/Ge9BY3LgLjCShcw==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   p-map@7.0.3:
     resolution: {integrity: sha512-VkndIv2fIB99swvQoA65bm+fsmt6UNdGeIB0oxBs+WhAhdh08QA04JXpI7rbB9r08/nkbysKoya9rtDERYOYMA==}
@@ -3587,6 +3594,7 @@ packages:
   prebuild-install@7.1.3:
     resolution: {integrity: sha512-8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzKQFOzLug==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   prelude-ls@1.2.1:
@@ -4486,10 +4494,6 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  yocto-queue@1.2.1:
-    resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
-    engines: {node: '>=12.20'}
-
   yoctocolors@2.1.2:
     resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
@@ -4678,7 +4682,7 @@ snapshots:
 
   '@adonisjs/fold@10.2.1':
     dependencies:
-      '@poppinss/utils': 7.0.0-next.6
+      '@poppinss/utils': 7.0.1
       parse-imports: 2.2.1
 
   '@adonisjs/hash@9.1.1':
@@ -4720,18 +4724,20 @@ snapshots:
       vary: 1.1.2
       youch: 3.3.4
 
-  '@adonisjs/inertia@3.1.1(43a45a4cb4585c39ada816fd57faf77b)':
+  '@adonisjs/inertia@4.2.0(a2bd65d339f304483915b494940d9670)':
     dependencies:
       '@adonisjs/core': 6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0)
       '@adonisjs/session': 7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0)
       '@adonisjs/vite': 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/shield@8.2.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/session@7.7.1(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@adonisjs/lucid@21.8.2(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@vinejs/vine@3.0.1)(better-sqlite3@12.6.2)(luxon@3.7.2))(edge.js@6.4.0))(edge.js@6.4.0))(edge.js@6.4.0)(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.30.2))
-      '@poppinss/utils': 6.10.1
-      '@tuyau/utils': 0.0.7
+      '@poppinss/utils': 7.0.1
       edge-error: 4.0.2
       edge.js: 6.4.0
       html-entities: 2.6.0
-      locate-path: 7.2.0
-      qs: 6.14.1
+    optionalDependencies:
+      '@adonisjs/assembler': 7.8.2(typescript@5.9.3)
+      '@inertiajs/vue3': 2.3.11(vue@3.5.27(typescript@5.9.3))
+      '@japa/plugin-adonisjs': 4.0.0(@adonisjs/core@6.19.3(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@3.0.1)(edge.js@6.4.0))(@japa/runner@5.3.0)
+      vue: 3.5.27(typescript@5.9.3)
 
   '@adonisjs/logger@6.0.7':
     dependencies:
@@ -5214,7 +5220,7 @@ snapshots:
       '@poppinss/colors': 4.1.6
       '@poppinss/hooks': 7.3.0
       '@poppinss/string': 1.7.1
-      '@poppinss/utils': 7.0.0-next.6
+      '@poppinss/utils': 7.0.1
       error-stack-parser-es: 1.0.5
       find-cache-directory: 6.0.0
       getopts: 2.3.0
@@ -5616,7 +5622,7 @@ snapshots:
       safe-stable-stringify: 2.5.0
       secure-json-parse: 4.1.0
 
-  '@poppinss/utils@7.0.0-next.6':
+  '@poppinss/utils@7.0.1':
     dependencies:
       '@poppinss/exception': 1.2.3
       '@poppinss/object-builder': 1.1.0
@@ -6122,8 +6128,6 @@ snapshots:
   '@tsconfig/node14@1.0.3': {}
 
   '@tsconfig/node16@1.0.4': {}
-
-  '@tuyau/utils@0.0.7': {}
 
   '@types/chai@5.2.3':
     dependencies:
@@ -6832,7 +6836,7 @@ snapshots:
     dependencies:
       '@poppinss/inspect': 1.0.1
       '@poppinss/macroable': 1.1.0
-      '@poppinss/utils': 7.0.0-next.6
+      '@poppinss/utils': 7.0.1
       edge-error: 4.0.2
       edge-lexer: 6.0.4
       edge-parser: 9.0.4
@@ -7681,10 +7685,6 @@ snapshots:
     dependencies:
       p-locate: 5.0.0
 
-  locate-path@7.2.0:
-    dependencies:
-      p-locate: 6.0.0
-
   lodash-es@4.17.21: {}
 
   lodash-es@4.17.22: {}
@@ -7922,17 +7922,9 @@ snapshots:
     dependencies:
       yocto-queue: 0.1.0
 
-  p-limit@4.0.0:
-    dependencies:
-      yocto-queue: 1.2.1
-
   p-locate@5.0.0:
     dependencies:
       p-limit: 3.1.0
-
-  p-locate@6.0.0:
-    dependencies:
-      p-limit: 4.0.0
 
   p-map@7.0.3: {}
 
@@ -8939,8 +8931,6 @@ snapshots:
   yn@3.1.1: {}
 
   yocto-queue@0.1.0: {}
-
-  yocto-queue@1.2.1: {}
 
   yoctocolors@2.1.2: {}
 
